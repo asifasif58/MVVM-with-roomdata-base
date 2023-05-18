@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainSelectionScreenActivity">
+
+    <TextView
+        android:id="@+id/firstUiProject"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/cornerradius"
+        android:fontFamily="@font/poppins_semibold"
+        android:foreground="@drawable/rippleb"
+        android:gravity="center"
+        android:text="First Ui Project"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/secondUiProject"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/cornerradius"
+        android:fontFamily="@font/poppins_semibold"
+        android:foreground="@drawable/rippleb"
+        android:gravity="center"
+        android:text="Second UI Project"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstUiProject" />
+
+    <TextView
+        android:id="@+id/thirdUiProject"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/cornerradius"
+        android:fontFamily="@font/poppins_semibold"
+        android:foreground="@drawable/rippleb"
+        android:gravity="center"
+        android:text="Third UI Project"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondUiProject" />
+
+    <TextView
+        android:id="@+id/forthUiProject"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/cornerradius"
+        android:fontFamily="@font/poppins_semibold"
+        android:foreground="@drawable/rippleb"
+        android:gravity="center"
+        android:text="Fourth UI Project"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdUiProject" />
+
+    <TextView
+        android:id="@+id/fifthUiProject"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/cornerradius"
+        android:fontFamily="@font/poppins_semibold"
+        android:foreground="@drawable/rippleb"
+        android:gravity="center"
+        android:text="Fifth UI Project"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forthUiProject" />
+
+    <TextView
+        android:id="@+id/sixUiProject"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/cornerradius"
+        android:fontFamily="@font/poppins_semibold"
+        android:foreground="@drawable/rippleb"
+        android:gravity="center"
+        android:text="Six UI Project"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fifthUiProject" />
+
+    <TextView
+        android:id="@+id/sevenUiProject"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/cornerradius"
+        android:fontFamily="@font/poppins_semibold"
+        android:foreground="@drawable/rippleb"
+        android:gravity="center"
+        android:text="Seven UI Project"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sixUiProject" />
+</androidx.constraintlayout.widget.ConstraintLayout>

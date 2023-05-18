@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF9FA"
+    tools:context=".ui.thirduiproject.AllTask4Activity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foreground="@drawable/rippleb"
+                android:padding="@dimen/_8sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/backpress" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:padding="@dimen/_10sdp"
+                android:text="All Tasks"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toStartOf="@+id/imageView33"
+                app:layout_constraintStart_toEndOf="@+id/imageView32"
+                app:layout_constraintTop_toTopOf="@+id/imageView32" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_8sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/closeicon" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:padding="@dimen/_10sdp"
+                android:text="Business"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintStart_toStartOf="@+id/imageView32"
+                app:layout_constraintTop_toBottomOf="@+id/imageView32" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView12"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_110sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@color/black"
+                android:foreground="@drawable/rippleb"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/textView57"
+                app:layout_constraintVertical_chainStyle="packed">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="@dimen/_6sdp"
+                        android:layout_height="match_parent"
+                        android:background="#59D2CB"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView59"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_21sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Partners meeting "
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        app:layout_constraintBottom_toTopOf="@+id/textView60"
+                        app:layout_constraintStart_toEndOf="@+id/view3"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Today, 9:00 AM"
+                        android:textColor="#909191"
+                        app:layout_constraintBottom_toTopOf="@+id/tagItemId"
+                        app:layout_constraintStart_toStartOf="@+id/textView59"
+                        app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+                    <TextView
+                        android:id="@+id/tagItemId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/cornerradiusmore"
+                        android:backgroundTint="#EDF8F9"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/_7sdp"
+                        android:paddingRight="@dimen/_7sdp"
+                        android:text="#Work"
+                        android:textColor="#8CB6B3"
+                        app:layout_constraintStart_toStartOf="@+id/textView60"
+                        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+                    <TextView
+                        android:id="@+id/tagItemId2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:background="@drawable/cornerradiusmore"
+                        android:backgroundTint="#EDF8F9"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/_7sdp"
+                        android:paddingRight="@dimen/_7sdp"
+                        android:text="#Finance"
+                        android:textColor="#8CB6B3"
+                        app:layout_constraintStart_toEndOf="@+id/tagItemId"
+                        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+                    <TextView
+                        android:id="@+id/tagItemId3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/cornerradiusmore"
+                        android:backgroundTint="#EDF8F9"
+                        android:fontFamily="@font/poppins"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/_7sdp"
+                        android:paddingRight="@dimen/_7sdp"
+                        android:text="#Contract"
+                        android:textColor="#8CB6B3"
+                        app:layout_constraintStart_toEndOf="@+id/tagItemId2"
+                        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+                    <ImageView
+                        android:id="@+id/imageView69"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/circlecolor"
+                        android:backgroundTint="#BFD69274"
+                        android:padding="@dimen/_7sdp"
+                        android:src="@drawable/starticon"
+                        app:layout_constraintBottom_toBottomOf="@+id/textView59"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/textView59"
+                        app:tint="#EC8152" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_7sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="2dp"
+                android:layout_height="@dimen/_80sdp"
+                android:background="#BDBDBD"
+                app:layout_constraintBottom_toBottomOf="@+id/cardView12"
+                app:layout_constraintEnd_toEndOf="@+id/radioButton"
+                app:layout_constraintStart_toStartOf="@+id/radioButton" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView14"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@color/black"
+                android:foreground="@drawable/rippleb"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/cardView12"
+                app:layout_constraintVertical_chainStyle="packed">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <View
+                        android:id="@+id/view4"
+                        android:layout_width="@dimen/_6sdp"
+                        android:layout_height="match_parent"
+                        android:background="#59D2CB"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_21sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Partners meeting "
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        app:layout_constraintStart_toEndOf="@+id/view4"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Today, 9:00 AM"
+                        android:textColor="#909191"
+                        app:layout_constraintStart_toStartOf="@+id/textViewt1"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewt1" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_7sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView12" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="2dp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="#BDBDBD"
+                app:layout_constraintBottom_toBottomOf="@+id/cardView14"
+                app:layout_constraintEnd_toEndOf="@+id/radioButton2"
+                app:layout_constraintStart_toStartOf="@+id/radioButton2" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView15"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_135sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@color/black"
+                android:foreground="@drawable/rippleb"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/cardView14"
+                app:layout_constraintVertical_chainStyle="packed">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <View
+                        android:id="@+id/view7"
+                        android:layout_width="@dimen/_6sdp"
+                        android:layout_height="match_parent"
+                        android:background="#59D2CB"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Partners meeting "
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        app:layout_constraintStart_toEndOf="@+id/view7"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewt4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Today, 9:00 AM"
+                        android:textColor="#909191"
+                        app:layout_constraintStart_toStartOf="@+id/textViewt3"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewt3" />
+
+                    <TextView
+                        android:id="@+id/textViewt6"
+                        android:layout_width="251dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Prepare all documents for signing and find out where to send them."
+                        android:textColor="#909191"
+                        app:layout_constraintStart_toStartOf="@+id/textViewt4"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewt4" />
+
+                    <TextView
+                        android:id="@+id/tagItemId1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_25sdp"
+                        android:background="@drawable/cornerradiusmore"
+                        android:backgroundTint="#EDF8F9"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/_7sdp"
+                        android:paddingRight="@dimen/_7sdp"
+                        android:text="#Finance"
+                        android:textColor="#8CB6B3"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/textViewt6"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewt6" />
+
+                    <TextView
+                        android:id="@+id/tagItemId4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:background="@drawable/cornerradiusmore"
+                        android:backgroundTint="#EDF8F9"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/_7sdp"
+                        android:paddingRight="@dimen/_7sdp"
+                        android:text="#Documents"
+                        android:textColor="#8CB6B3"
+                        app:layout_constraintBottom_toBottomOf="@+id/tagItemId1"
+                        app:layout_constraintStart_toEndOf="@+id/tagItemId1"
+                        app:layout_constraintTop_toTopOf="@+id/tagItemId1" />
+
+
+                    <ImageView
+                        android:id="@+id/imageViewi7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/circlecolor"
+                        android:backgroundTint="#BFD69274"
+                        android:padding="@dimen/_7sdp"
+                        android:src="@drawable/starticon"
+                        app:layout_constraintBottom_toBottomOf="@+id/textViewt3"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/textViewt3"
+                        app:tint="#EC8152" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_7sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView14" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="2dp"
+                android:layout_height="@dimen/_100sdp"
+                android:background="#BDBDBD"
+                app:layout_constraintBottom_toBottomOf="@+id/cardView15"
+                app:layout_constraintEnd_toEndOf="@+id/radioButton"
+                app:layout_constraintStart_toStartOf="@+id/radioButton" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView16"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@color/black"
+                android:foreground="@drawable/rippleb"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/cardView15"
+                app:layout_constraintVertical_chainStyle="packed">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <View
+                        android:id="@+id/view8"
+                        android:layout_width="@dimen/_6sdp"
+                        android:layout_height="match_parent"
+                        android:background="#EA6667"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewt5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_21sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Partners meeting "
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        app:layout_constraintStart_toEndOf="@+id/view8"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewt7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Today, 9:00 AM"
+                        android:textColor="#909191"
+                        app:layout_constraintStart_toStartOf="@+id/textViewt5"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewt5" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_7sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/cardView16" />
+
+            <View
+                android:id="@+id/view9"
+                android:layout_width="2dp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="#BDBDBD"
+                app:layout_constraintBottom_toBottomOf="@+id/cardView16"
+                app:layout_constraintEnd_toEndOf="@+id/radioButton2"
+                app:layout_constraintStart_toStartOf="@+id/radioButton2" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView17"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_180sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_40sdp"
+                android:background="@color/black"
+                android:foreground="@drawable/rippleb"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/cardView16"
+                app:layout_constraintVertical_chainStyle="packed">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <View
+                        android:id="@+id/view10"
+                        android:layout_width="@dimen/_6sdp"
+                        android:layout_height="match_parent"
+                        android:background="#947DD3"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewt8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_21sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Partners meeting "
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        app:layout_constraintStart_toEndOf="@+id/view10"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewt9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Today, 9:00 AM"
+                        android:textColor="#909191"
+                        app:layout_constraintStart_toStartOf="@+id/textViewt8"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewt8" />
+
+                    <ImageView
+                        android:id="@+id/imageView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginLeft="@dimen/_18sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_18sdp"
+                        app:layout_constraintStart_toEndOf="@+id/view10"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewt9"
+                        app:srcCompat="@drawable/gymgirl2" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_7sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/cardView17" />
+
+            <View
+                android:id="@+id/view11"
+                android:layout_width="2dp"
+                android:layout_height="@dimen/_150sdp"
+                android:background="#BDBDBD"
+                app:layout_constraintBottom_toBottomOf="@+id/cardView17"
+                app:layout_constraintEnd_toEndOf="@+id/radioButton2"
+                app:layout_constraintStart_toStartOf="@+id/radioButton2" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView18"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_110sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_40sdp"
+                android:background="@color/black"
+                android:foreground="@drawable/rippleb"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/cardView17"
+                app:layout_constraintVertical_chainStyle="packed">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <View
+                        android:id="@+id/view12"
+                        android:layout_width="@dimen/_6sdp"
+                        android:layout_height="match_parent"
+                        android:background="#ECC810"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewt10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_21sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Partners meeting "
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        app:layout_constraintStart_toEndOf="@+id/view12"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewt11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Today, 9:00 AM"
+                        android:textColor="#909191"
+                        app:layout_constraintStart_toStartOf="@+id/textViewt10"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewt10" />
+
+                    <TextView
+                        android:id="@+id/textView67"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/cornerradiusmore"
+                        android:backgroundTint="#FEF9E6"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/_7sdp"
+                        android:paddingRight="@dimen/_7sdp"
+                        android:text="#Work"
+                        android:textColor="#ECC810"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewt11"
+                        app:layout_constraintStart_toStartOf="@+id/textViewt10" />
+
+                    <TextView
+                        android:id="@+id/textView68"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/cornerradiusmore"
+                        android:backgroundTint="#FEF9E6"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/_7sdp"
+                        android:paddingRight="@dimen/_7sdp"
+                        android:text="#Food"
+                        android:textColor="#ECC810"
+                        app:layout_constraintStart_toEndOf="@+id/textView67"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewt11" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_7sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/cardView18" />
+
+            <View
+                android:id="@+id/view13"
+                android:layout_width="2dp"
+                android:layout_height="@dimen/_80sdp"
+                android:background="#BDBDBD"
+                app:layout_constraintBottom_toBottomOf="@+id/cardView18"
+                app:layout_constraintEnd_toEndOf="@+id/radioButton2"
+                app:layout_constraintStart_toStartOf="@+id/radioButton2" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

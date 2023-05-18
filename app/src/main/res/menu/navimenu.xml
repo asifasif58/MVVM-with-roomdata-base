@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeicon"
+        android:icon="@drawable/moreicon"
+        android:title="TODO" />
+
+    <item
+        android:id="@+id/colorid"
+        android:title="TODO"
+        android:icon="@drawable/coloricon2" />
+
+    <item
+        android:id="@+id/bookid"
+        android:title="TODO"
+        android:icon="@drawable/bookicon" />
+    <item
+        android:id="@+id/filterid"
+        android:title="TODO"
+        android:icon="@drawable/filteriten" />
+
+</menu>

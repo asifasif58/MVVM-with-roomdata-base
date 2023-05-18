@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fourthproject.ProjectFour1Fragment">
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/poppins_semibold"
+        android:padding="@dimen/_10sdp"
+        android:text="    You are \nReady to go!"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/getstarted"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_weight=".7"
+        app:layout_constraintBottom_toTopOf="@+id/textViewt6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView56"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/boyexercisejson" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/getstarted2"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_weight=".7"
+        app:layout_constraintEnd_toStartOf="@+id/getstarted"
+        app:layout_constraintStart_toEndOf="@+id/getstarted4"
+        app:layout_constraintTop_toTopOf="@+id/getstarted"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/waterlotti" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/getstarted3"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_weight=".7"
+        app:layout_constraintStart_toEndOf="@+id/getstarted"
+        app:layout_constraintTop_toTopOf="@+id/getstarted"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/handaram" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/getstarted4"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_weight=".7"
+        app:layout_constraintBottom_toBottomOf="@+id/getstarted"
+        app:layout_constraintEnd_toStartOf="@+id/getstarted"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/getstarted2"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/heartani" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/getstarted5"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_weight=".7"
+        app:layout_constraintBottom_toBottomOf="@+id/getstarted"
+        app:layout_constraintStart_toEndOf="@+id/getstarted"
+        app:layout_constraintTop_toTopOf="@+id/getstarted4"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/fruitslitti" />
+
+    <TextView
+        android:id="@+id/textViewt6"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="3,000+ Classes across categories like running, yoga, strength
+training."
+        android:textColor="#909191"
+        android:layout_marginBottom="@dimen/_40sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment11"
+        android:icon="@drawable/home"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/fragment12"
+        android:icon="@drawable/runingicon"
+        android:title="Run"/>
+    <item
+        android:id="@+id/fragment13"
+        android:icon="@drawable/winningcupicon"
+        android:title="Challenge"/>
+    <item
+        android:id="@+id/fragment14"
+        android:icon="@drawable/moveicoon"
+        android:title="More"/>
+
+</menu>

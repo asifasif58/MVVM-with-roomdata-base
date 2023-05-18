@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/arraowbottom.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/backpress.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/bookicon.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/circle.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/circle2.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/circle20.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/circle20blackall.xml" value="0.243" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/circle20withoutborder.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/circlecolor.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/coloricon2.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/copyicoon.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/cornerradius.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/cornerradius2.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/cornerradius3.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/cornerradiusgradin.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/cornerradiusmore.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/cornerradiusnull.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/downloadicon.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/downloadicon2.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/dropwater.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/editicoon.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/filteriten.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/home.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/img.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/itemselectortint.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/itemselectortint2.xml" value="0.243" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/linebottom.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/linedot.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/menuicon.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/moreicon.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/moveicoon.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/navigationequalicon.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/nextarrow.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/notificationicon.xml" value="0.243" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/plusicon.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/rippleb.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/rippleb2.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/rippleb3.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/runingicon.xml" value="0.243" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/seekbarbg.xml" value="0.243" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/seekbarcustom.xml" value="0.243" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/seekbarcustom2.xml" value="0.243" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/seekbarpg.xml" value="0.243" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/sliceicn.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/starticon.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/thumbb.xml" value="0.243" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/topbothcornerraduis.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/drawable/wordicon.xml" value="0.2195" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/font/poppins_medium.xml" value="0.3764102564102564" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout-v23/activity_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_add_task3.xml" value="0.3466666666666667" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_all_task4.xml" value="0.22" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_fifth_screen2.xml" value="0.33697916666666666" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_main_screen1.xml" value="0.2640625" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_main_selection_screen.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_screen1_splash.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_screen2.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_second_project_ui.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_second_screen.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_second_screen_ui.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_seventh1_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_six_project_screen1.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_six_project_screen2.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_start1.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/activity_third_screen.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/addtwotextlayout.xml" value="0.28888888888888886" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/alerttextdialog.xml" value="0.35104166666666664" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/fragment_home.xml" value="0.3466666666666667" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/fragment_project_four1.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/fragment_project_four2.xml" value="0.33697916666666666" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/fragment_project_four3.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/fragment_project_four4.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/fragment_second_screen.xml" value="0.33697916666666666" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/fragment_seven1.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/fragment_seven2.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/fragment_seven3.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/fragment_third_screen.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/homerecyclerviewitem.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/layout1_seven_adapter.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/layout2_seven_adapter.xml" value="0.35104166666666664" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/layout3_seven_adapter.xml" value="0.35104166666666664" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/layout_image_show_adapter.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/layout_image_six_adapter.xml" value="0.35104166666666664" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/layout_image_text2_adapter.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/layout_image_text_adapter.xml" value="0.35104166666666664" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/like_adapter_layout.xml" value="0.35104166666666664" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/tag_recycyler_view_layout.xml" value="0.35104166666666664" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/layout/want_adapter_layout.xml" value="0.35104166666666664" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/menu/navigationitem.xml" value="0.35208333333333336" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/menu/navigationitem2.xml" value="0.845" />
+        <entry key="..\:/DemoProjectIO/app/src/main/res/menu/navimenu.xml" value="0.35208333333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

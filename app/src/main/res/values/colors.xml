@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#C96200EE</color>
+    <color name="purple_700">#5C8CFE</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="border">#9C9C9C</color>
+    <color name="unselect">#CBEDE9E9</color>
+    <color name="unselecticon">#E2BDAFAF</color>
+    <color name="greengraph">#E2537A5E</color>
+    <color name="unselectgraph">#4F537A5E</color>
+    <color name="color1">#5C8CFE</color>
+    <color name="color2">#A9B53E3E</color>
+    <color name="color3">#AEC59E39</color>
+    <color name="color4">#B27C1D8C</color>
+    <color name="color5">#77C59E39</color>
+    <color name="color6">#4A7C1D8C</color>
+    <color name="selecttext">#25090909</color>
+    <color name="tagtext">#9B9D9F</color>
+    <color name="tagly">#F4F4F4</color>
+    <color name="wantclr1">#FFE3CE</color>
+    <color name="wantclr2">#FFF7A9</color>
+    <color name="wantclr3">#FFD6F1</color>
+    <color name="wantclr4">#C5F1FF</color>
+
+    <color name="dark_grey">#ff1c1d21</color>
+    <color name="dark_grey_more">#ff232323</color>
+
+</resources>
